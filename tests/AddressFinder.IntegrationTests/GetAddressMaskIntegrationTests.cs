@@ -1,6 +1,7 @@
 using AddressFinder.FunctionApp.Domain.Services;
 using AddressFinder.IntegrationTests.TestDoubles;
 using FluentAssertions;
+using Xunit;
 
 namespace AddressFinder.IntegrationTests;
 

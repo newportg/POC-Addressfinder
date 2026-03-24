@@ -1,5 +1,6 @@
 using AddressFinder.FunctionApp.Infrastructure.Telemetry;
 using FluentAssertions;
+using Xunit;
 
 namespace AddressFinder.UnitTests;
 

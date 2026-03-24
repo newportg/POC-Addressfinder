@@ -2,6 +2,7 @@ using AddressFinder.FunctionApp.Domain.Models;
 using AddressFinder.FunctionApp.Domain.Services;
 using AddressFinder.UnitTests.TestDoubles;
 using FluentAssertions;
+using Xunit;
 
 namespace AddressFinder.UnitTests;
 

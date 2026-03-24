@@ -1,0 +1,309 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Source\\Personal\\POC-Addressfinder\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5D3734E1-F115-FD6F-246A-FC24A4E2D15F}|tests\\AddressFinder.ContractTests\\AddressFinder.ContractTests.csproj|c:\\source\\personal\\poc-addressfinder\\tests\\addressfinder.contracttests\\parseaddressmaskcontracttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D3734E1-F115-FD6F-246A-FC24A4E2D15F}|tests\\AddressFinder.ContractTests\\AddressFinder.ContractTests.csproj|solutionrelative:tests\\addressfinder.contracttests\\parseaddressmaskcontracttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADAD5FB7-DAAB-57E4-1115-9591D2372D31}|tests\\AddressFinder.UnitTests\\AddressFinder.UnitTests.csproj|c:\\source\\personal\\poc-addressfinder\\tests\\addressfinder.unittests\\piiredactiontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADAD5FB7-DAAB-57E4-1115-9591D2372D31}|tests\\AddressFinder.UnitTests\\AddressFinder.UnitTests.csproj|solutionrelative:tests\\addressfinder.unittests\\piiredactiontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADAD5FB7-DAAB-57E4-1115-9591D2372D31}|tests\\AddressFinder.UnitTests\\AddressFinder.UnitTests.csproj|c:\\source\\personal\\poc-addressfinder\\tests\\addressfinder.unittests\\maskresolutionservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADAD5FB7-DAAB-57E4-1115-9591D2372D31}|tests\\AddressFinder.UnitTests\\AddressFinder.UnitTests.csproj|solutionrelative:tests\\addressfinder.unittests\\maskresolutionservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADAD5FB7-DAAB-57E4-1115-9591D2372D31}|tests\\AddressFinder.UnitTests\\AddressFinder.UnitTests.csproj|c:\\source\\personal\\poc-addressfinder\\tests\\addressfinder.unittests\\maskcontentsafetyvalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADAD5FB7-DAAB-57E4-1115-9591D2372D31}|tests\\AddressFinder.UnitTests\\AddressFinder.UnitTests.csproj|solutionrelative:tests\\addressfinder.unittests\\maskcontentsafetyvalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADAD5FB7-DAAB-57E4-1115-9591D2372D31}|tests\\AddressFinder.UnitTests\\AddressFinder.UnitTests.csproj|c:\\source\\personal\\poc-addressfinder\\tests\\addressfinder.unittests\\maskcatalogmetadatatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADAD5FB7-DAAB-57E4-1115-9591D2372D31}|tests\\AddressFinder.UnitTests\\AddressFinder.UnitTests.csproj|solutionrelative:tests\\addressfinder.unittests\\maskcatalogmetadatatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADAD5FB7-DAAB-57E4-1115-9591D2372D31}|tests\\AddressFinder.UnitTests\\AddressFinder.UnitTests.csproj|c:\\source\\personal\\poc-addressfinder\\tests\\addressfinder.unittests\\fallbackresolutiontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADAD5FB7-DAAB-57E4-1115-9591D2372D31}|tests\\AddressFinder.UnitTests\\AddressFinder.UnitTests.csproj|solutionrelative:tests\\addressfinder.unittests\\fallbackresolutiontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADAD5FB7-DAAB-57E4-1115-9591D2372D31}|tests\\AddressFinder.UnitTests\\AddressFinder.UnitTests.csproj|c:\\source\\personal\\poc-addressfinder\\tests\\addressfinder.unittests\\countrycodenormalizationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADAD5FB7-DAAB-57E4-1115-9591D2372D31}|tests\\AddressFinder.UnitTests\\AddressFinder.UnitTests.csproj|solutionrelative:tests\\addressfinder.unittests\\countrycodenormalizationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4D1B164-0E96-FD57-718D-F5AB9EC187D4}|tests\\AddressFinder.IntegrationTests\\AddressFinder.IntegrationTests.csproj|c:\\source\\personal\\poc-addressfinder\\tests\\addressfinder.integrationtests\\renderingfailuremetricsintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4D1B164-0E96-FD57-718D-F5AB9EC187D4}|tests\\AddressFinder.IntegrationTests\\AddressFinder.IntegrationTests.csproj|solutionrelative:tests\\addressfinder.integrationtests\\renderingfailuremetricsintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4D1B164-0E96-FD57-718D-F5AB9EC187D4}|tests\\AddressFinder.IntegrationTests\\AddressFinder.IntegrationTests.csproj|c:\\source\\personal\\poc-addressfinder\\tests\\addressfinder.integrationtests\\parseaddressmaskintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4D1B164-0E96-FD57-718D-F5AB9EC187D4}|tests\\AddressFinder.IntegrationTests\\AddressFinder.IntegrationTests.csproj|solutionrelative:tests\\addressfinder.integrationtests\\parseaddressmaskintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4D1B164-0E96-FD57-718D-F5AB9EC187D4}|tests\\AddressFinder.IntegrationTests\\AddressFinder.IntegrationTests.csproj|c:\\source\\personal\\poc-addressfinder\\tests\\addressfinder.integrationtests\\observabilityintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4D1B164-0E96-FD57-718D-F5AB9EC187D4}|tests\\AddressFinder.IntegrationTests\\AddressFinder.IntegrationTests.csproj|solutionrelative:tests\\addressfinder.integrationtests\\observabilityintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4D1B164-0E96-FD57-718D-F5AB9EC187D4}|tests\\AddressFinder.IntegrationTests\\AddressFinder.IntegrationTests.csproj|c:\\source\\personal\\poc-addressfinder\\tests\\addressfinder.integrationtests\\maskmetadataintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4D1B164-0E96-FD57-718D-F5AB9EC187D4}|tests\\AddressFinder.IntegrationTests\\AddressFinder.IntegrationTests.csproj|solutionrelative:tests\\addressfinder.integrationtests\\maskmetadataintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4D1B164-0E96-FD57-718D-F5AB9EC187D4}|tests\\AddressFinder.IntegrationTests\\AddressFinder.IntegrationTests.csproj|c:\\source\\personal\\poc-addressfinder\\tests\\addressfinder.integrationtests\\getaddressmaskintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4D1B164-0E96-FD57-718D-F5AB9EC187D4}|tests\\AddressFinder.IntegrationTests\\AddressFinder.IntegrationTests.csproj|solutionrelative:tests\\addressfinder.integrationtests\\getaddressmaskintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4D1B164-0E96-FD57-718D-F5AB9EC187D4}|tests\\AddressFinder.IntegrationTests\\AddressFinder.IntegrationTests.csproj|c:\\source\\personal\\poc-addressfinder\\tests\\addressfinder.integrationtests\\fallbackmaskintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4D1B164-0E96-FD57-718D-F5AB9EC187D4}|tests\\AddressFinder.IntegrationTests\\AddressFinder.IntegrationTests.csproj|solutionrelative:tests\\addressfinder.integrationtests\\fallbackmaskintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D3734E1-F115-FD6F-246A-FC24A4E2D15F}|tests\\AddressFinder.ContractTests\\AddressFinder.ContractTests.csproj|c:\\source\\personal\\poc-addressfinder\\tests\\addressfinder.contracttests\\parseaddresscompatibilitycontracttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D3734E1-F115-FD6F-246A-FC24A4E2D15F}|tests\\AddressFinder.ContractTests\\AddressFinder.ContractTests.csproj|solutionrelative:tests\\addressfinder.contracttests\\parseaddresscompatibilitycontracttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D3734E1-F115-FD6F-246A-FC24A4E2D15F}|tests\\AddressFinder.ContractTests\\AddressFinder.ContractTests.csproj|c:\\source\\personal\\poc-addressfinder\\tests\\addressfinder.contracttests\\maskmetadatacontracttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D3734E1-F115-FD6F-246A-FC24A4E2D15F}|tests\\AddressFinder.ContractTests\\AddressFinder.ContractTests.csproj|solutionrelative:tests\\addressfinder.contracttests\\maskmetadatacontracttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D3734E1-F115-FD6F-246A-FC24A4E2D15F}|tests\\AddressFinder.ContractTests\\AddressFinder.ContractTests.csproj|c:\\source\\personal\\poc-addressfinder\\tests\\addressfinder.contracttests\\getaddressmaskcontracttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D3734E1-F115-FD6F-246A-FC24A4E2D15F}|tests\\AddressFinder.ContractTests\\AddressFinder.ContractTests.csproj|solutionrelative:tests\\addressfinder.contracttests\\getaddressmaskcontracttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D3734E1-F115-FD6F-246A-FC24A4E2D15F}|tests\\AddressFinder.ContractTests\\AddressFinder.ContractTests.csproj|c:\\source\\personal\\poc-addressfinder\\tests\\addressfinder.contracttests\\fallbackmaskcontracttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D3734E1-F115-FD6F-246A-FC24A4E2D15F}|tests\\AddressFinder.ContractTests\\AddressFinder.ContractTests.csproj|solutionrelative:tests\\addressfinder.contracttests\\fallbackmaskcontracttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PiiRedactionTests.cs",
+              "DocumentMoniker": "C:\\Source\\Personal\\POC-Addressfinder\\tests\\AddressFinder.UnitTests\\PiiRedactionTests.cs",
+              "RelativeDocumentMoniker": "tests\\AddressFinder.UnitTests\\PiiRedactionTests.cs",
+              "ToolTip": "C:\\Source\\Personal\\POC-Addressfinder\\tests\\AddressFinder.UnitTests\\PiiRedactionTests.cs",
+              "RelativeToolTip": "tests\\AddressFinder.UnitTests\\PiiRedactionTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:37:01.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MaskResolutionServiceTests.cs",
+              "DocumentMoniker": "C:\\Source\\Personal\\POC-Addressfinder\\tests\\AddressFinder.UnitTests\\MaskResolutionServiceTests.cs",
+              "RelativeDocumentMoniker": "tests\\AddressFinder.UnitTests\\MaskResolutionServiceTests.cs",
+              "ToolTip": "C:\\Source\\Personal\\POC-Addressfinder\\tests\\AddressFinder.UnitTests\\MaskResolutionServiceTests.cs",
+              "RelativeToolTip": "tests\\AddressFinder.UnitTests\\MaskResolutionServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:36:54.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MaskContentSafetyValidatorTests.cs",
+              "DocumentMoniker": "C:\\Source\\Personal\\POC-Addressfinder\\tests\\AddressFinder.UnitTests\\MaskContentSafetyValidatorTests.cs",
+              "RelativeDocumentMoniker": "tests\\AddressFinder.UnitTests\\MaskContentSafetyValidatorTests.cs",
+              "ToolTip": "C:\\Source\\Personal\\POC-Addressfinder\\tests\\AddressFinder.UnitTests\\MaskContentSafetyValidatorTests.cs",
+              "RelativeToolTip": "tests\\AddressFinder.UnitTests\\MaskContentSafetyValidatorTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:36:48.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MaskCatalogMetadataTests.cs",
+              "DocumentMoniker": "C:\\Source\\Personal\\POC-Addressfinder\\tests\\AddressFinder.UnitTests\\MaskCatalogMetadataTests.cs",
+              "RelativeDocumentMoniker": "tests\\AddressFinder.UnitTests\\MaskCatalogMetadataTests.cs",
+              "ToolTip": "C:\\Source\\Personal\\POC-Addressfinder\\tests\\AddressFinder.UnitTests\\MaskCatalogMetadataTests.cs",
+              "RelativeToolTip": "tests\\AddressFinder.UnitTests\\MaskCatalogMetadataTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:36:40.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FallbackResolutionTests.cs",
+              "DocumentMoniker": "C:\\Source\\Personal\\POC-Addressfinder\\tests\\AddressFinder.UnitTests\\FallbackResolutionTests.cs",
+              "RelativeDocumentMoniker": "tests\\AddressFinder.UnitTests\\FallbackResolutionTests.cs",
+              "ToolTip": "C:\\Source\\Personal\\POC-Addressfinder\\tests\\AddressFinder.UnitTests\\FallbackResolutionTests.cs",
+              "RelativeToolTip": "tests\\AddressFinder.UnitTests\\FallbackResolutionTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:36:34.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CountryCodeNormalizationTests.cs",
+              "DocumentMoniker": "C:\\Source\\Personal\\POC-Addressfinder\\tests\\AddressFinder.UnitTests\\CountryCodeNormalizationTests.cs",
+              "RelativeDocumentMoniker": "tests\\AddressFinder.UnitTests\\CountryCodeNormalizationTests.cs",
+              "ToolTip": "C:\\Source\\Personal\\POC-Addressfinder\\tests\\AddressFinder.UnitTests\\CountryCodeNormalizationTests.cs",
+              "RelativeToolTip": "tests\\AddressFinder.UnitTests\\CountryCodeNormalizationTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:36:27.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RenderingFailureMetricsIntegrationTests.cs",
+              "DocumentMoniker": "C:\\Source\\Personal\\POC-Addressfinder\\tests\\AddressFinder.IntegrationTests\\RenderingFailureMetricsIntegrationTests.cs",
+              "RelativeDocumentMoniker": "tests\\AddressFinder.IntegrationTests\\RenderingFailureMetricsIntegrationTests.cs",
+              "ToolTip": "C:\\Source\\Personal\\POC-Addressfinder\\tests\\AddressFinder.IntegrationTests\\RenderingFailureMetricsIntegrationTests.cs",
+              "RelativeToolTip": "tests\\AddressFinder.IntegrationTests\\RenderingFailureMetricsIntegrationTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:36:20.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ParseAddressMaskContractTests.cs",
+              "DocumentMoniker": "C:\\Source\\Personal\\POC-Addressfinder\\tests\\AddressFinder.ContractTests\\ParseAddressMaskContractTests.cs",
+              "RelativeDocumentMoniker": "tests\\AddressFinder.ContractTests\\ParseAddressMaskContractTests.cs",
+              "ToolTip": "C:\\Source\\Personal\\POC-Addressfinder\\tests\\AddressFinder.ContractTests\\ParseAddressMaskContractTests.cs",
+              "RelativeToolTip": "tests\\AddressFinder.ContractTests\\ParseAddressMaskContractTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:35:25.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ParseAddressMaskIntegrationTests.cs",
+              "DocumentMoniker": "C:\\Source\\Personal\\POC-Addressfinder\\tests\\AddressFinder.IntegrationTests\\ParseAddressMaskIntegrationTests.cs",
+              "RelativeDocumentMoniker": "tests\\AddressFinder.IntegrationTests\\ParseAddressMaskIntegrationTests.cs",
+              "ToolTip": "C:\\Source\\Personal\\POC-Addressfinder\\tests\\AddressFinder.IntegrationTests\\ParseAddressMaskIntegrationTests.cs",
+              "RelativeToolTip": "tests\\AddressFinder.IntegrationTests\\ParseAddressMaskIntegrationTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:36:09.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ObservabilityIntegrationTests.cs",
+              "DocumentMoniker": "C:\\Source\\Personal\\POC-Addressfinder\\tests\\AddressFinder.IntegrationTests\\ObservabilityIntegrationTests.cs",
+              "RelativeDocumentMoniker": "tests\\AddressFinder.IntegrationTests\\ObservabilityIntegrationTests.cs",
+              "ToolTip": "C:\\Source\\Personal\\POC-Addressfinder\\tests\\AddressFinder.IntegrationTests\\ObservabilityIntegrationTests.cs",
+              "RelativeToolTip": "tests\\AddressFinder.IntegrationTests\\ObservabilityIntegrationTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:36:03.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MaskMetadataIntegrationTests.cs",
+              "DocumentMoniker": "C:\\Source\\Personal\\POC-Addressfinder\\tests\\AddressFinder.IntegrationTests\\MaskMetadataIntegrationTests.cs",
+              "RelativeDocumentMoniker": "tests\\AddressFinder.IntegrationTests\\MaskMetadataIntegrationTests.cs",
+              "ToolTip": "C:\\Source\\Personal\\POC-Addressfinder\\tests\\AddressFinder.IntegrationTests\\MaskMetadataIntegrationTests.cs",
+              "RelativeToolTip": "tests\\AddressFinder.IntegrationTests\\MaskMetadataIntegrationTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:35:56.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GetAddressMaskIntegrationTests.cs",
+              "DocumentMoniker": "C:\\Source\\Personal\\POC-Addressfinder\\tests\\AddressFinder.IntegrationTests\\GetAddressMaskIntegrationTests.cs",
+              "RelativeDocumentMoniker": "tests\\AddressFinder.IntegrationTests\\GetAddressMaskIntegrationTests.cs",
+              "ToolTip": "C:\\Source\\Personal\\POC-Addressfinder\\tests\\AddressFinder.IntegrationTests\\GetAddressMaskIntegrationTests.cs",
+              "RelativeToolTip": "tests\\AddressFinder.IntegrationTests\\GetAddressMaskIntegrationTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:35:49.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FallbackMaskIntegrationTests.cs",
+              "DocumentMoniker": "C:\\Source\\Personal\\POC-Addressfinder\\tests\\AddressFinder.IntegrationTests\\FallbackMaskIntegrationTests.cs",
+              "RelativeDocumentMoniker": "tests\\AddressFinder.IntegrationTests\\FallbackMaskIntegrationTests.cs",
+              "ToolTip": "C:\\Source\\Personal\\POC-Addressfinder\\tests\\AddressFinder.IntegrationTests\\FallbackMaskIntegrationTests.cs",
+              "RelativeToolTip": "tests\\AddressFinder.IntegrationTests\\FallbackMaskIntegrationTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:35:32.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ParseAddressCompatibilityContractTests.cs",
+              "DocumentMoniker": "C:\\Source\\Personal\\POC-Addressfinder\\tests\\AddressFinder.ContractTests\\ParseAddressCompatibilityContractTests.cs",
+              "RelativeDocumentMoniker": "tests\\AddressFinder.ContractTests\\ParseAddressCompatibilityContractTests.cs",
+              "ToolTip": "C:\\Source\\Personal\\POC-Addressfinder\\tests\\AddressFinder.ContractTests\\ParseAddressCompatibilityContractTests.cs",
+              "RelativeToolTip": "tests\\AddressFinder.ContractTests\\ParseAddressCompatibilityContractTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:35:18.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MaskMetadataContractTests.cs",
+              "DocumentMoniker": "C:\\Source\\Personal\\POC-Addressfinder\\tests\\AddressFinder.ContractTests\\MaskMetadataContractTests.cs",
+              "RelativeDocumentMoniker": "tests\\AddressFinder.ContractTests\\MaskMetadataContractTests.cs",
+              "ToolTip": "C:\\Source\\Personal\\POC-Addressfinder\\tests\\AddressFinder.ContractTests\\MaskMetadataContractTests.cs",
+              "RelativeToolTip": "tests\\AddressFinder.ContractTests\\MaskMetadataContractTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:35:07.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GetAddressMaskContractTests.cs",
+              "DocumentMoniker": "C:\\Source\\Personal\\POC-Addressfinder\\tests\\AddressFinder.ContractTests\\GetAddressMaskContractTests.cs",
+              "RelativeDocumentMoniker": "tests\\AddressFinder.ContractTests\\GetAddressMaskContractTests.cs",
+              "ToolTip": "C:\\Source\\Personal\\POC-Addressfinder\\tests\\AddressFinder.ContractTests\\GetAddressMaskContractTests.cs",
+              "RelativeToolTip": "tests\\AddressFinder.ContractTests\\GetAddressMaskContractTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:34:59.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FallbackMaskContractTests.cs",
+              "DocumentMoniker": "C:\\Source\\Personal\\POC-Addressfinder\\tests\\AddressFinder.ContractTests\\FallbackMaskContractTests.cs",
+              "RelativeDocumentMoniker": "tests\\AddressFinder.ContractTests\\FallbackMaskContractTests.cs",
+              "ToolTip": "C:\\Source\\Personal\\POC-Addressfinder\\tests\\AddressFinder.ContractTests\\FallbackMaskContractTests.cs",
+              "RelativeToolTip": "tests\\AddressFinder.ContractTests\\FallbackMaskContractTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:34:40.342Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

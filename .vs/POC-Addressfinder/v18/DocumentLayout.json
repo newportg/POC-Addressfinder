@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Source\\Personal\\POC-Addressfinder\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{32330B77-FF88-453E-8AFA-C65B875C6CBF}|Solution Items{32330B77-FF88-453E-8AFA-C65B875C6CBF}|C:\\Users\\NEWPORTG\\OneDrive - Knight Frank\\Documents\\AddressFormats.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32330B77-FF88-453E-8AFA-C65B875C6CBF}|Solution Items{32330B77-FF88-453E-8AFA-C65B875C6CBF}|C:\\Source\\Personal\\POC-Addressfinder\\addressMaskSchema.json.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{32330B77-FF88-453E-8AFA-C65B875C6CBF}|Solution Items{32330B77-FF88-453E-8AFA-C65B875C6CBF}|solutionrelative:addressMaskSchema.json.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4D1B164-0E96-FD57-718D-F5AB9EC187D4}|tests\\AddressFinder.IntegrationTests\\AddressFinder.IntegrationTests.csproj|c:\\source\\personal\\poc-addressfinder\\tests\\addressfinder.integrationtests\\renderingfailuremetricsintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4D1B164-0E96-FD57-718D-F5AB9EC187D4}|tests\\AddressFinder.IntegrationTests\\AddressFinder.IntegrationTests.csproj|solutionrelative:tests\\addressfinder.integrationtests\\renderingfailuremetricsintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D3734E1-F115-FD6F-246A-FC24A4E2D15F}|tests\\AddressFinder.ContractTests\\AddressFinder.ContractTests.csproj|c:\\source\\personal\\poc-addressfinder\\tests\\addressfinder.contracttests\\parseaddressmaskcontracttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D3734E1-F115-FD6F-246A-FC24A4E2D15F}|tests\\AddressFinder.ContractTests\\AddressFinder.ContractTests.csproj|solutionrelative:tests\\addressfinder.contracttests\\parseaddressmaskcontracttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddressFormats.json",
+              "DocumentMoniker": "C:\\Users\\NEWPORTG\\OneDrive - Knight Frank\\Documents\\AddressFormats.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\NEWPORTG\\OneDrive - Knight Frank\\Documents\\AddressFormats.json",
+              "ToolTip": "C:\\Users\\NEWPORTG\\OneDrive - Knight Frank\\Documents\\AddressFormats.json",
+              "RelativeToolTip": "..\\..\\..\\Users\\NEWPORTG\\OneDrive - Knight Frank\\Documents\\AddressFormats.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-24T12:48:20.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "addressMaskSchema.json.txt",
+              "DocumentMoniker": "C:\\Source\\Personal\\POC-Addressfinder\\addressMaskSchema.json.txt",
+              "RelativeDocumentMoniker": "addressMaskSchema.json.txt",
+              "ToolTip": "C:\\Source\\Personal\\POC-Addressfinder\\addressMaskSchema.json.txt",
+              "RelativeToolTip": "addressMaskSchema.json.txt",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAAABMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-03-24T12:47:39.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RenderingFailureMetricsIntegrationTests.cs",
+              "DocumentMoniker": "C:\\Source\\Personal\\POC-Addressfinder\\tests\\AddressFinder.IntegrationTests\\RenderingFailureMetricsIntegrationTests.cs",
+              "RelativeDocumentMoniker": "tests\\AddressFinder.IntegrationTests\\RenderingFailureMetricsIntegrationTests.cs",
+              "ToolTip": "C:\\Source\\Personal\\POC-Addressfinder\\tests\\AddressFinder.IntegrationTests\\RenderingFailureMetricsIntegrationTests.cs",
+              "RelativeToolTip": "tests\\AddressFinder.IntegrationTests\\RenderingFailureMetricsIntegrationTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:36:20.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ParseAddressMaskContractTests.cs",
+              "DocumentMoniker": "C:\\Source\\Personal\\POC-Addressfinder\\tests\\AddressFinder.ContractTests\\ParseAddressMaskContractTests.cs",
+              "RelativeDocumentMoniker": "tests\\AddressFinder.ContractTests\\ParseAddressMaskContractTests.cs",
+              "ToolTip": "C:\\Source\\Personal\\POC-Addressfinder\\tests\\AddressFinder.ContractTests\\ParseAddressMaskContractTests.cs",
+              "RelativeToolTip": "tests\\AddressFinder.ContractTests\\ParseAddressMaskContractTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:35:25.308Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

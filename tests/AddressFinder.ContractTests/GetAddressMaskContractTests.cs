@@ -1,6 +1,7 @@
 using AddressFinder.FunctionApp.Contracts;
 using AddressFinder.FunctionApp.Domain.Models;
 using FluentAssertions;
+using Xunit;
 
 namespace AddressFinder.ContractTests;
 

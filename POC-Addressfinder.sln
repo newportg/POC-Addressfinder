@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.5.2.0
+# Visual Studio Version 18
+VisualStudioVersion = 18.4.11612.150 stable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
 EndProject
@@ -13,6 +13,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressFinder.IntegrationTests", "tests\AddressFinder.IntegrationTests\AddressFinder.IntegrationTests.csproj", "{E4D1B164-0E96-FD57-718D-F5AB9EC187D4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressFinder.UnitTests", "tests\AddressFinder.UnitTests\AddressFinder.UnitTests.csproj", "{ADAD5FB7-DAAB-57E4-1115-9591D2372D31}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{32330B77-FF88-453E-8AFA-C65B875C6CBF}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Users\NEWPORTG\OneDrive - Knight Frank\Documents\AddressFormats.json = ..\..\..\Users\NEWPORTG\OneDrive - Knight Frank\Documents\AddressFormats.json
+		addressMaskSchema.json.txt = addressMaskSchema.json.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
