@@ -1,0 +1,331 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$ref": "#/definitions/Welcome1",
+    "definitions": {
+        "Welcome1": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "mask": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Mask"
+                    }
+                }
+            },
+            "required": [
+                "mask"
+            ],
+            "title": "Welcome1"
+        },
+        "Mask": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "Country": {
+                    "type": "string"
+                },
+                "ISO-3166-3": {
+                    "type": "string"
+                },
+                "ISO-3166-2": {
+                    "type": "string"
+                },
+                "Line1": {
+                    "$ref": "#/definitions/Line1Union"
+                },
+                "Line2": {
+                    "$ref": "#/definitions/Line2"
+                },
+                "Line3": {
+                    "$ref": "#/definitions/Line3"
+                },
+                "Line4": {
+                    "$ref": "#/definitions/MaskLine4"
+                },
+                "Line5": {
+                    "$ref": "#/definitions/MaskLine5"
+                },
+                "Line6": {
+                    "$ref": "#/definitions/Line6"
+                },
+                "Line7": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Line7Element"
+                    }
+                },
+                "Line8": {
+                    "$ref": "#/definitions/Line8Union"
+                },
+                "Line9": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Line10Element"
+                    }
+                },
+                "Line10": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Line10Element"
+                    }
+                },
+                "Line11": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Line10Element"
+                    }
+                },
+                "Line12": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Line10Element"
+                    }
+                }
+            },
+            "required": [
+                "Country",
+                "ISO-3166-2",
+                "ISO-3166-3",
+                "Line1",
+                "Line2",
+                "Line3"
+            ],
+            "title": "Mask"
+        },
+        "Line1Union": {
+            "anyOf": [
+                {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Line1Element"
+                    }
+                },
+                {
+                    "type": "string"
+                }
+            ],
+            "title": "Line1Union"
+        },
+        "Line2": {
+            "anyOf": [
+                {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Line10Element"
+                    }
+                },
+                {
+                    "type": "string"
+                }
+            ],
+            "title": "Line2"
+        },
+        "Line3": {
+            "anyOf": [
+                {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Line3Element"
+                    }
+                },
+                {
+                    "type": "string"
+                }
+            ],
+            "title": "Line3"
+        },
+        "MaskLine4": {
+            "anyOf": [
+                {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Line4Element"
+                    }
+                },
+                {
+                    "type": "string"
+                }
+            ],
+            "title": "MaskLine4"
+        },
+        "Line4Element": {
+            "anyOf": [
+                {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Line10Element"
+                    }
+                },
+                {
+                    "$ref": "#/definitions/Line4Enum"
+                }
+            ],
+            "title": "Line4Element"
+        },
+        "MaskLine5": {
+            "anyOf": [
+                {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Line5Element"
+                    }
+                },
+                {
+                    "$ref": "#/definitions/Line3Element"
+                }
+            ],
+            "title": "MaskLine5"
+        },
+        "Line5Element": {
+            "anyOf": [
+                {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Line10Element"
+                    }
+                },
+                {
+                    "$ref": "#/definitions/Line7Element"
+                }
+            ],
+            "title": "Line5Element"
+        },
+        "Line6": {
+            "anyOf": [
+                {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Line7Element"
+                    }
+                },
+                {
+                    "type": "string"
+                }
+            ],
+            "title": "Line6"
+        },
+        "Line8Union": {
+            "anyOf": [
+                {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Line8Element"
+                    }
+                },
+                {
+                    "type": "string"
+                }
+            ],
+            "title": "Line8Union"
+        },
+        "Line1Element": {
+            "type": "string",
+            "enum": [
+                "Organization",
+                "PostBox",
+                "OrganizationPostBox",
+                "OrganizationPostalCode",
+                "Locality"
+            ],
+            "title": "Line1Element"
+        },
+        "Line10Element": {
+            "type": "string",
+            "enum": [
+                "PostBox",
+                "Building",
+                "SubBuilding",
+                "Locality",
+                "BuildingNumber",
+                "BuildingName",
+                "PostalCode",
+                "Organization",
+                "DoubleDependentLocality",
+                "AdministrativeArea",
+                "Department",
+                "DependentLocality"
+            ],
+            "title": "Line10Element"
+        },
+        "Line3Element": {
+            "type": "string",
+            "enum": [
+                "Building",
+                "SubBuilding",
+                "Thoroughfare",
+                "Premise",
+                "-",
+                "DependentThoroughfare",
+                "SubBuildingFloor",
+                "BuildingPhase",
+                "DependentLocality",
+                "Organization",
+                "PremiseNumber",
+                "PostBox",
+                "NoPremise",
+                "DeliveryAddress"
+            ],
+            "title": "Line3Element"
+        },
+        "Line4Enum": {
+            "type": "string",
+            "enum": [
+                "Thoroughfare",
+                "Premise",
+                "SubBuilding",
+                "DoubleDependentLocality",
+                "DependentLocality",
+                "DependentThoroughfare",
+                "PostBox",
+                "Route",
+                "DeliveryInstallation",
+                "Building",
+                "BuildingPhaseExtra",
+                "DeliveryAddress",
+                "SubBuildingFloor"
+            ],
+            "title": "Line4Enum"
+        },
+        "Line7Element": {
+            "type": "string",
+            "enum": [
+                "DependentThoroughfare",
+                "PostalCode",
+                "Locality",
+                "DoubleDependentLocality",
+                "AdministrativeArea",
+                "DependentLocality",
+                "PostBox",
+                "Town",
+                "Premise",
+                "Thoroughfare",
+                "Building",
+                "SubBuilding",
+                "/",
+                "",
+                "SubAdministrativeArea",
+                "-",
+                "PostalCodePrimary"
+            ],
+            "title": "Line7Element"
+        },
+        "Line8Element": {
+            "type": "string",
+            "enum": [
+                "PostalCode",
+                "Locality",
+                "AdministrativeArea",
+                "-",
+                "LocalityExtra",
+                "LocalityExtra_Others",
+                "PostTown",
+                "SubAdministrativeArea",
+                "DependentLocality",
+                "LT-PostalCode",
+                "L-PostalCode"
+            ],
+            "title": "Line8Element"
+        }
+    }
+}

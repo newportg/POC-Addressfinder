@@ -1,0 +1,140 @@
+openapi: 3.0.3
+info:
+  title: Address Parsing API
+  version: 1.0.0
+  description: Parse free-form addresses into ISO 20022-aligned structured JSON.
+servers:
+  - url: https://{host}
+    variables:
+      host:
+        default: localhost:7071
+paths:
+  /api/address/parse:
+    post:
+      summary: Parse address string
+      operationId: parseAddress
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ParseAddressRequest'
+      responses:
+        '200':
+          description: Parsed address response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ParsedAddressResponse'
+        '400':
+          description: Validation error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ParseError'
+        '500':
+          description: Server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ParseError'
+components:
+  schemas:
+    ParseAddressRequest:
+      type: object
+      required:
+        - address_input
+      properties:
+        address_input:
+          type: string
+          minLength: 1
+          maxLength: 1000
+        request_id:
+          type: string
+          nullable: true
+    ParsedAddressResponse:
+      type: object
+      required:
+        - confidence_score
+        - parsed_at
+        - cache_hit
+      properties:
+        department:
+          type: string
+          nullable: true
+        sub_department:
+          type: string
+          nullable: true
+        street_name:
+          type: string
+          nullable: true
+        building_number:
+          type: string
+          nullable: true
+        building_name:
+          type: string
+          nullable: true
+        floor:
+          type: string
+          nullable: true
+        post_box_number:
+          type: string
+          nullable: true
+        room:
+          type: string
+          nullable: true
+        postal_code:
+          type: string
+          nullable: true
+        town_name:
+          type: string
+          nullable: true
+        town_location_name:
+          type: string
+          nullable: true
+        district_name:
+          type: string
+          nullable: true
+        country_subdivision:
+          type: string
+          nullable: true
+        country:
+          type: string
+          nullable: true
+          minLength: 2
+          maxLength: 2
+        address_line:
+          type: string
+          nullable: true
+        confidence_score:
+          type: integer
+          minimum: 0
+          maximum: 100
+        parsed_at:
+          type: string
+          format: date-time
+        validated_at:
+          type: string
+          format: date-time
+          nullable: true
+        cache_hit:
+          type: boolean
+        cached_at:
+          type: string
+          format: date-time
+          nullable: true
+        request_id:
+          type: string
+    ParseError:
+      type: object
+      required:
+        - error_code
+        - error_message
+        - request_id
+      properties:
+        error_code:
+          type: string
+        error_message:
+          type: string
+        request_id:
+          type: string

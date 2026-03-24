@@ -1,0 +1,48 @@
+{
+  "catalog_version": "2026.03.23",
+  "mask_source": "Loqate International Address Formats",
+  "fallback_layout": {
+    "Line1": ["AddressLine1"],
+    "Line2": ["AddressLine2"],
+    "Line3": ["PostalCode", "Locality"]
+  },
+  "countries": [
+    {
+      "Country": "United States",
+      "Iso3char": "USA",
+      "Iso2char": "US",
+      "supports_po_box": true,
+      "lines": {
+        "Line1": ["Organization"],
+        "Line2": ["SubBuilding", "BuildingName"],
+        "Line3": ["BuildingNumber", "Street"],
+        "Line4": ["PostBox"],
+        "Line5": ["District"],
+        "Line6": ["Locality"],
+        "Line7": ["AdministrativeArea"],
+        "Line8": ["PostalCode", "CountryName"]
+      }
+    },
+    {
+      "Country": "United Kingdom",
+      "Iso3char": "GBR",
+      "Iso2char": "GB",
+      "supports_po_box": true,
+      "lines": {
+        "Line1": ["Organization"],
+        "Line2": ["SubBuilding", "BuildingName"],
+        "Line3": ["BuildingNumber", "DependentStreet", "Street"],
+        "Line4": ["DoubleDependentLocality", "DependentLocality"],
+        "Line5": ["Locality"],
+        "Line6": ["PostalCode"],
+        "Line7": ["CountryName"]
+      }
+    },
+    {
+      "Country": "Canada",
+      "Iso3char": "CAN",
+      "Iso2char": "CA",
+      "supports_po_box": true
+    }
+  ]
+}

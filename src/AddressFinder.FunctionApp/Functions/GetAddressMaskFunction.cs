@@ -1,0 +1,44 @@
+using System.Net;
+using AddressFinder.FunctionApp.Contracts;
+using AddressFinder.FunctionApp.Domain.Services;
+using AddressFinder.FunctionApp.Infrastructure.Telemetry;
+using Microsoft.Azure.Functions.Worker;
+using Microsoft.Azure.Functions.Worker.Http;
+using Microsoft.Azure.WebJobs.Extensions.OpenApi.Core.Attributes;
+using Microsoft.Azure.WebJobs.Extensions.OpenApi.Core.Enums;
+
+namespace AddressFinder.FunctionApp.Functions;
+
+public class GetAddressMaskFunction(
+    MaskResolutionService resolutionService,
+    InputValidationService validationService,
+    MaskResolutionTelemetry telemetry)
+{
+    [Function("GetAddressMask")]
+    [OpenApiOperation(operationId: "GetAddressMask", tags: ["Address"])]
+    [OpenApiParameter(name: "countryCode", In = ParameterLocation.Path, Required = true, Type = typeof(string))]
+    [OpenApiResponseWithBody(statusCode: HttpStatusCode.OK, contentType: "application/json", bodyType: typeof(MaskLookupResponse))]
+    [OpenApiResponseWithBody(statusCode: HttpStatusCode.BadRequest, contentType: "application/json", bodyType: typeof(ParseErrorResponse))]
+    public async Task<HttpResponseData> Run(
+        [HttpTrigger(AuthorizationLevel.Function, "get", Route = "address/mask/{countryCode}")]
+        HttpRequestData req,
+        string countryCode)
+    {
+        var requestId = Guid.NewGuid().ToString("N");
+        var validationError = validationService.ValidateCountryCode(countryCode);
+        var normalized = validationService.NormalizeCountryCode(countryCode);
+        if (validationError is not null && normalized is null)
+        {
+            var bad = req.CreateResponse(HttpStatusCode.BadRequest);
+            await bad.WriteAsJsonAsync(new ParseErrorResponse(validationError, "Invalid country code", requestId));
+            return bad;
+        }
+
+        var result = resolutionService.ResolveByCountryCode(normalized ?? countryCode.ToUpperInvariant());
+        telemetry.TrackMaskResolution(requestId, result.MaskResolutionStatus, result.MaskVersion, result.MaskSource);
+
+        var response = req.CreateResponse(HttpStatusCode.OK);
+        await response.WriteAsJsonAsync(MaskLookupResponse.FromResult(result, requestId));
+        return response;
+    }
+}
