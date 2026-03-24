@@ -5,6 +5,7 @@ using AddressFinder.FunctionApp.Domain.Services;
 using AddressFinder.FunctionApp.Infrastructure.Telemetry;
 using Microsoft.Azure.Functions.Worker;
 using Microsoft.Azure.Functions.Worker.Http;
+using Microsoft.Azure.WebJobs.Extensions.OpenApi.Core.Attributes;
 
 namespace AddressFinder.FunctionApp.Functions;
 
@@ -14,6 +15,11 @@ public class ParseAddressFunction(
     MaskResolutionTelemetry telemetry)
 {
     [Function("ParseAddress")]
+    [OpenApiOperation(operationId: "ParseAddress", tags: ["Address"])]
+    [OpenApiRequestBody(contentType: "application/json", bodyType: typeof(ParseAddressRequest), Required = true, Description = "Address parse request payload")]
+    [OpenApiResponseWithBody(statusCode: HttpStatusCode.OK, contentType: "application/json", bodyType: typeof(ParseAddressWithMaskResponse))]
+    [OpenApiResponseWithBody(statusCode: HttpStatusCode.BadRequest, contentType: "application/json", bodyType: typeof(ParseErrorResponse))]
+    [OpenApiResponseWithBody(statusCode: HttpStatusCode.InternalServerError, contentType: "application/json", bodyType: typeof(ParseErrorResponse))]
     public async Task<HttpResponseData> Run(
         [HttpTrigger(AuthorizationLevel.Function, "post", Route = "address/parse")]
         HttpRequestData req)
