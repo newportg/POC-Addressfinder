@@ -6,6 +6,10 @@
       "AbsoluteMoniker": "D:0:0:{32330B77-FF88-453E-8AFA-C65B875C6CBF}|Solution Items{32330B77-FF88-453E-8AFA-C65B875C6CBF}|C:\\Users\\NEWPORTG\\OneDrive - Knight Frank\\Documents\\AddressFormats.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FDF258B9-8853-7D7B-06A1-F93C2F8C339D}|src\\AddressFinder.FunctionApp\\AddressFinder.FunctionApp.csproj|c:\\source\\personal\\poc-addressfinder\\src\\addressfinder.functionapp\\infrastructure\\catalog\\country-mask-catalog.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FDF258B9-8853-7D7B-06A1-F93C2F8C339D}|src\\AddressFinder.FunctionApp\\AddressFinder.FunctionApp.csproj|solutionrelative:src\\addressfinder.functionapp\\infrastructure\\catalog\\country-mask-catalog.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{32330B77-FF88-453E-8AFA-C65B875C6CBF}|Solution Items{32330B77-FF88-453E-8AFA-C65B875C6CBF}|C:\\Source\\Personal\\POC-Addressfinder\\addressMaskSchema.json.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{32330B77-FF88-453E-8AFA-C65B875C6CBF}|Solution Items{32330B77-FF88-453E-8AFA-C65B875C6CBF}|solutionrelative:addressMaskSchema.json.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -25,8 +29,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "country-mask-catalog.json",
+              "DocumentMoniker": "C:\\Source\\Personal\\POC-Addressfinder\\src\\AddressFinder.FunctionApp\\Infrastructure\\Catalog\\country-mask-catalog.json",
+              "RelativeDocumentMoniker": "src\\AddressFinder.FunctionApp\\Infrastructure\\Catalog\\country-mask-catalog.json",
+              "ToolTip": "C:\\Source\\Personal\\POC-Addressfinder\\src\\AddressFinder.FunctionApp\\Infrastructure\\Catalog\\country-mask-catalog.json",
+              "RelativeToolTip": "src\\AddressFinder.FunctionApp\\Infrastructure\\Catalog\\country-mask-catalog.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUhAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-24T15:16:28.229Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -42,19 +59,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "addressMaskSchema.json.txt",
               "DocumentMoniker": "C:\\Source\\Personal\\POC-Addressfinder\\addressMaskSchema.json.txt",
               "RelativeDocumentMoniker": "addressMaskSchema.json.txt",
               "ToolTip": "C:\\Source\\Personal\\POC-Addressfinder\\addressMaskSchema.json.txt",
               "RelativeToolTip": "addressMaskSchema.json.txt",
-              "ViewState": "AgIAAJwAAAAAAAAAAAAAABMAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAABMAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-03-24T12:47:39.274Z"
+              "WhenOpened": "2026-03-24T12:47:39.274Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "RenderingFailureMetricsIntegrationTests.cs",
               "DocumentMoniker": "C:\\Source\\Personal\\POC-Addressfinder\\tests\\AddressFinder.IntegrationTests\\RenderingFailureMetricsIntegrationTests.cs",
               "RelativeDocumentMoniker": "tests\\AddressFinder.IntegrationTests\\RenderingFailureMetricsIntegrationTests.cs",
@@ -66,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ParseAddressMaskContractTests.cs",
               "DocumentMoniker": "C:\\Source\\Personal\\POC-Addressfinder\\tests\\AddressFinder.ContractTests\\ParseAddressMaskContractTests.cs",
               "RelativeDocumentMoniker": "tests\\AddressFinder.ContractTests\\ParseAddressMaskContractTests.cs",

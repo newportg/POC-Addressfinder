@@ -16,7 +16,7 @@ public sealed class MaskResolutionService(
 
     public MaskResolutionResult ResolveFromParsedCountryHint(string? countryHint)
     {
-        var resolution = catalogProvider.Resolve(countryHint ?? "US");
+        var resolution = catalogProvider.Resolve(countryHint ?? "GB");
         EnsureSafety(resolution.Mask);
         return resolution;
     }
@@ -29,7 +29,7 @@ public sealed class MaskResolutionService(
             ["Country"] = resolution.Mask.Country,
             ["Iso2char"] = resolution.Mask.Iso2char,
             ["Iso3char"] = resolution.Mask.Iso3char,
-            ["PostBox"] = resolution.Mask.SupportsPoBox && originalInput.Contains("PO BOX", StringComparison.OrdinalIgnoreCase)
+            ["PostBox"] = originalInput.Contains("PO BOX", StringComparison.OrdinalIgnoreCase)
                 ? "PO BOX"
                 : null
         };

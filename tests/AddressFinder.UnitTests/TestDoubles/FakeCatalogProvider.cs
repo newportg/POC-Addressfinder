@@ -5,6 +5,8 @@ namespace AddressFinder.UnitTests.TestDoubles;
 
 internal sealed class FakeCatalogProvider : IEmbeddedMaskCatalogProvider
 {
+    public string? LastCountryCode { get; private set; }
+
     public MaskResolutionResult NextResult { get; set; } = new()
     {
         Mask = new CountryMaskDefinition
@@ -12,7 +14,6 @@ internal sealed class FakeCatalogProvider : IEmbeddedMaskCatalogProvider
             Country = "United States",
             Iso3char = "USA",
             Iso2char = "US",
-            SupportsPoBox = true,
             MaskSource = "Loqate",
             MaskVersion = "2026.03.23",
             Lines = new Dictionary<string, List<string>>
@@ -30,5 +31,9 @@ internal sealed class FakeCatalogProvider : IEmbeddedMaskCatalogProvider
     public IReadOnlyDictionary<string, CountryMaskDefinition> GetAll() =>
         new Dictionary<string, CountryMaskDefinition> { ["US"] = NextResult.Mask };
 
-    public MaskResolutionResult Resolve(string countryCode) => NextResult;
+    public MaskResolutionResult Resolve(string countryCode)
+    {
+        LastCountryCode = countryCode;
+        return NextResult;
+    }
 }

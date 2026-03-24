@@ -6,6 +6,26 @@ namespace AddressFinder.UnitTests;
 
 public class CountryCodeNormalizationTests
 {
+    [Fact]
+    public void ValidateAddressInput_ShouldAcceptTypicalUkAddress()
+    {
+        var sut = new InputValidationService();
+
+        var error = sut.ValidateAddressInput("68 westfield road, woking, surrey, gu22 9ng");
+
+        error.Should().BeNull();
+    }
+
+    [Fact]
+    public void ValidateAddressInput_ShouldRejectMissingAddressInput()
+    {
+        var sut = new InputValidationService();
+
+        var error = sut.ValidateAddressInput(null);
+
+        error.Should().Be("INVALID_INPUT");
+    }
+
     [Theory]
     [InlineData("us", "US")]
     [InlineData("USA", "US")]

@@ -17,7 +17,7 @@ public class MaskResolutionServiceTests
         var result = sut.ResolveByCountryCode("US");
 
         result.MaskResolutionStatus.Should().Be(MaskResolutionStatus.Exact);
-        result.Mask.SupportsPoBox.Should().BeTrue();
+        result.Mask.Country.Should().Be("United States");
     }
 
     [Fact]
@@ -31,5 +31,16 @@ public class MaskResolutionServiceTests
 
         var parsed = (Dictionary<string, string?>)payload.ParsedAddress;
         parsed["PostBox"].Should().Be("PO BOX");
+    }
+
+    [Fact]
+    public void ShouldDefaultToGb_WhenParsedCountryHintIsMissing()
+    {
+        var provider = new FakeCatalogProvider();
+        var sut = new MaskResolutionService(provider, new MaskContentSafetyValidator());
+
+        sut.ResolveFromParsedCountryHint(null);
+
+        provider.LastCountryCode.Should().Be("GB");
     }
 }

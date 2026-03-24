@@ -7,7 +7,6 @@ public sealed record CountryMaskDefinition
     public required string Iso2char { get; init; }
     public required Dictionary<string, List<string>> Lines { get; init; }
     public required int MaxLine { get; init; }
-    public bool SupportsPoBox { get; init; }
     public required string MaskVersion { get; init; }
     public required string MaskSource { get; init; }
 

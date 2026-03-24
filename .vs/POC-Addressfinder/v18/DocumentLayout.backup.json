@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Source\\Personal\\POC-Addressfinder\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{32330B77-FF88-453E-8AFA-C65B875C6CBF}|Solution Items{32330B77-FF88-453E-8AFA-C65B875C6CBF}|C:\\Users\\NEWPORTG\\OneDrive - Knight Frank\\Documents\\AddressFormats.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{32330B77-FF88-453E-8AFA-C65B875C6CBF}|Solution Items{32330B77-FF88-453E-8AFA-C65B875C6CBF}|C:\\Source\\Personal\\POC-Addressfinder\\addressMaskSchema.json.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{32330B77-FF88-453E-8AFA-C65B875C6CBF}|Solution Items{32330B77-FF88-453E-8AFA-C65B875C6CBF}|solutionrelative:addressMaskSchema.json.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32330B77-FF88-453E-8AFA-C65B875C6CBF}|Solution Items{32330B77-FF88-453E-8AFA-C65B875C6CBF}|C:\\Users\\NEWPORTG\\OneDrive - Knight Frank\\Documents\\AddressFormats.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E4D1B164-0E96-FD57-718D-F5AB9EC187D4}|tests\\AddressFinder.IntegrationTests\\AddressFinder.IntegrationTests.csproj|c:\\source\\personal\\poc-addressfinder\\tests\\addressfinder.integrationtests\\renderingfailuremetricsintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,11 +25,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AddressFormats.json",
               "DocumentMoniker": "C:\\Users\\NEWPORTG\\OneDrive - Knight Frank\\Documents\\AddressFormats.json",
               "RelativeDocumentMoniker": "..\\..\\..\\Users\\NEWPORTG\\OneDrive - Knight Frank\\Documents\\AddressFormats.json",
@@ -42,15 +42,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "addressMaskSchema.json.txt",
               "DocumentMoniker": "C:\\Source\\Personal\\POC-Addressfinder\\addressMaskSchema.json.txt",
               "RelativeDocumentMoniker": "addressMaskSchema.json.txt",
               "ToolTip": "C:\\Source\\Personal\\POC-Addressfinder\\addressMaskSchema.json.txt",
               "RelativeToolTip": "addressMaskSchema.json.txt",
-              "ViewState": "AgIAAJwAAAAAAAAAAAAAABMAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAMMAAAAAAAAAAAAAABMAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-03-24T12:47:39.274Z"
+              "WhenOpened": "2026-03-24T12:47:39.274Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

@@ -20,7 +20,6 @@ public static class ParseAddressCompatibilityFixtures
                 Country = "United States",
                 Iso2char = "US",
                 Iso3char = "USA",
-                SupportsPoBox = true,
                 MaskSource = "Loqate",
                 MaskVersion = "2026.03.23",
                 Lines = new Dictionary<string, List<string>>

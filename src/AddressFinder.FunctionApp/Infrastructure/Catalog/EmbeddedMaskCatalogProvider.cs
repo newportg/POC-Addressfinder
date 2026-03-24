@@ -109,7 +109,6 @@ public sealed class EmbeddedMaskCatalogProvider : IEmbeddedMaskCatalogProvider
             Country = country.Country,
             Iso3char = country.Iso3char,
             Iso2char = country.Iso2char,
-            SupportsPoBox = country.SupportsPoBox,
             MaskVersion = _catalogVersion,
             MaskSource = _maskSource,
             Lines = clone,
@@ -123,8 +122,7 @@ public sealed class EmbeddedMaskCatalogProvider : IEmbeddedMaskCatalogProvider
         {
             Country = iso2,
             Iso2char = iso2,
-            Iso3char = "UNK",
-            SupportsPoBox = false
+            Iso3char = "UNK"
         };
     }
 
@@ -148,9 +146,6 @@ public sealed class EmbeddedMaskCatalogProvider : IEmbeddedMaskCatalogProvider
         public required string Country { get; init; }
         public required string Iso3char { get; init; }
         public required string Iso2char { get; init; }
-
-        [JsonPropertyName("supports_po_box")]
-        public bool SupportsPoBox { get; init; }
 
         [JsonPropertyName("lines")]
         public Dictionary<string, List<string>>? Lines { get; init; }
