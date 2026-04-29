@@ -1,4 +1,4 @@
-using System.Text.Json;
+﻿using System.Text.Json;
 using System.Text.Json.Serialization;
 using AddressFinder.FunctionApp.Domain.Models;
 
@@ -8,7 +8,6 @@ public sealed class EmbeddedMaskCatalogProvider : IEmbeddedMaskCatalogProvider
 {
     private readonly Dictionary<string, CatalogCountry> _catalogByIso2;
     private readonly Dictionary<string, CatalogCountry> _catalogByIso3;
-    private readonly Dictionary<string, CatalogCountry> _catalogByName;
     private readonly Dictionary<string, List<string>> _fallbackLayout;
     private readonly string _catalogVersion;
     private readonly string _maskSource;
@@ -31,13 +30,11 @@ public sealed class EmbeddedMaskCatalogProvider : IEmbeddedMaskCatalogProvider
 
         _catalogByIso2 = new Dictionary<string, CatalogCountry>(StringComparer.OrdinalIgnoreCase);
         _catalogByIso3 = new Dictionary<string, CatalogCountry>(StringComparer.OrdinalIgnoreCase);
-        _catalogByName = new Dictionary<string, CatalogCountry>(StringComparer.OrdinalIgnoreCase);
 
         foreach (var country in root.Countries)
         {
             _catalogByIso2[country.Iso2char] = country;
             _catalogByIso3[country.Iso3char] = country;
-            _catalogByName[country.Country] = country;
         }
     }
 
@@ -91,11 +88,6 @@ public sealed class EmbeddedMaskCatalogProvider : IEmbeddedMaskCatalogProvider
         if (_catalogByIso3.TryGetValue(code, out var iso3))
         {
             return iso3;
-        }
-
-        if (_catalogByName.TryGetValue(code, out var byName))
-        {
-            return byName;
         }
 
         return null;

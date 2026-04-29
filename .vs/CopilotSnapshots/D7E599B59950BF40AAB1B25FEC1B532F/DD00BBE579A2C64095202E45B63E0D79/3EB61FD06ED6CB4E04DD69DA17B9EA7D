@@ -6015,17 +6015,19 @@
                                                       "DependentThoroughfare"
                                                   ],
                                         "Line5":  [
-                                                       "Building",
-                                                       "SubBuilding"
-                                                   ],
+                                                      [
+                                                          "Building"
+                                                      ],
+                                                      "SubBuilding"
+                                                  ],
                                         "Line6":  [
-                                                       "DoubleDependentLocality"
-                                                   ],
+                                                      "DoubleDependentLocality"
+                                                  ],
                                         "Line7":  [
-                                                       "DependentLocality"
-                                                   ],
+                                                      "DependentLocality"
+                                                  ],
                                         "Line8":  [
-                                                       "Locality"
+                                                      "Locality"
                                                   ],
                                         "Line9":  [
                                                       "PostalCode"

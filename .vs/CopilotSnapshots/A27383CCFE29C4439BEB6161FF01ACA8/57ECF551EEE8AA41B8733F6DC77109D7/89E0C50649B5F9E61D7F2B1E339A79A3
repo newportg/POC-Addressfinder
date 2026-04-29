@@ -1,11 +1,16 @@
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
 
 namespace AddressFinder.FunctionApp.Domain.Services;
 
 public sealed class InputValidationService
 {
-    private static readonly Regex IsoCodeRegex = new("^[A-Za-z]{2,3}$", RegexOptions.Compiled);
-    private static readonly Regex CountryNameRegex = new("^[A-Za-z][A-Za-z \\-'.(),]{0,99}$", RegexOptions.Compiled);
+    private static readonly Regex CountryCodeRegex = new("^[A-Z]{2}$", RegexOptions.Compiled);
+    private static readonly Dictionary<string, string> Iso3ToIso2 = new(StringComparer.OrdinalIgnoreCase)
+    {
+        ["USA"] = "US",
+        ["GBR"] = "GB",
+        ["CAN"] = "CA"
+    };
 
     public string? ValidateCountryCode(string? countryCode)
     {
@@ -14,13 +19,7 @@ public sealed class InputValidationService
             return "INVALID_COUNTRY";
         }
 
-        var trimmed = countryCode.Trim();
-        if (IsoCodeRegex.IsMatch(trimmed) || CountryNameRegex.IsMatch(trimmed))
-        {
-            return null;
-        }
-
-        return "INVALID_COUNTRY";
+        return CountryCodeRegex.IsMatch(countryCode.Trim().ToUpperInvariant()) ? null : "INVALID_COUNTRY";
     }
 
     public string? ValidateAddressInput(string? input)
@@ -48,6 +47,12 @@ public sealed class InputValidationService
             return null;
         }
 
-        return countryCode.Trim();
+        var normalized = countryCode.Trim().ToUpperInvariant();
+        if (CountryCodeRegex.IsMatch(normalized))
+        {
+            return normalized;
+        }
+
+        return Iso3ToIso2.TryGetValue(normalized, out var iso2) ? iso2 : null;
     }
 }

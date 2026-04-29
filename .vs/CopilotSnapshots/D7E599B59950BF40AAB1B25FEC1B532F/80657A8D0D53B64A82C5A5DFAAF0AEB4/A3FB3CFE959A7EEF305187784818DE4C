@@ -371,11 +371,13 @@
                                                       "Premise"
                                                   ],
                                         "Line4":  [
-                                                       "Building",
-                                                       "SubBuilding",
-                                                       "DoubleDependentLocality",
-                                                       "DependentLocality"
-                                                   ],
+                                                      [
+                                                          "Building"
+                                                      ],
+                                                      "SubBuilding",
+                                                      "DoubleDependentLocality",
+                                                      "DependentLocality"
+                                                  ],
                                         "Line5":  [
                                                       "PostalCode",
                                                       "Locality"
@@ -6015,17 +6017,19 @@
                                                       "DependentThoroughfare"
                                                   ],
                                         "Line5":  [
-                                                       "Building",
-                                                       "SubBuilding"
-                                                   ],
+                                                      [
+                                                          "Building"
+                                                      ],
+                                                      "SubBuilding"
+                                                  ],
                                         "Line6":  [
-                                                       "DoubleDependentLocality"
-                                                   ],
+                                                      "DoubleDependentLocality"
+                                                  ],
                                         "Line7":  [
-                                                       "DependentLocality"
-                                                   ],
+                                                      "DependentLocality"
+                                                  ],
                                         "Line8":  [
-                                                       "Locality"
+                                                      "Locality"
                                                   ],
                                         "Line9":  [
                                                       "PostalCode"

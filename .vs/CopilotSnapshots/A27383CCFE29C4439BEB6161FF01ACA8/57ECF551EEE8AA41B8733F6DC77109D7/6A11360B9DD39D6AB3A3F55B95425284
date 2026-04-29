@@ -1,4 +1,4 @@
-using System.Net;
+﻿using System.Net;
 using AddressFinder.FunctionApp.Contracts;
 using AddressFinder.FunctionApp.Domain.Services;
 using AddressFinder.FunctionApp.Infrastructure.Telemetry;
@@ -26,14 +26,14 @@ public class GetAddressMaskFunction(
     {
         var requestId = Guid.NewGuid().ToString("N");
         var validationError = validationService.ValidateCountryCode(countryCode);
-        if (validationError is not null)
+        var normalized = validationService.NormalizeCountryCode(countryCode);
+        if (validationError is not null && normalized is null)
         {
             var bad = req.CreateResponse(HttpStatusCode.BadRequest);
             await bad.WriteAsJsonAsync(new ParseErrorResponse(validationError, "Invalid country code", requestId));
             return bad;
         }
 
-        var normalized = validationService.NormalizeCountryCode(countryCode);
         var result = resolutionService.ResolveByCountryCode(normalized ?? countryCode.Trim());
         telemetry.TrackMaskResolution(requestId, result.MaskResolutionStatus, result.MaskVersion, result.MaskSource);
 
